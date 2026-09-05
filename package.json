@@ -1,0 +1,16 @@
+{
+  "name": "nexora-digital-future",
+  "version": "1.0.0",
+  "description": "NEXORA Design the Digital Future competition website with an AI assistant backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "openai": "^5.23.2"
+  }
+}

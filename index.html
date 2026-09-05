@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NEXORA — an interactive concept for designing the digital future." />
+  <title>NEXORA — Design the Digital Future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="NEXORA home">
+      <span>NEXORA</span>
+      <small>DESIGNING THE DIGITAL FUTURE</small>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#future">Future</a>
+      <a href="#smart-city">Smart City</a>
+      <a href="#education">Education</a>
+      <a href="#healthcare">Healthcare</a>
+      <a href="#work">Work</a>
+      <a href="#sustainability">Sustainability</a>
+      <a href="#cyber">Cyber Safety</a>
+      <a href="#my-future">My Future</a>
+    </nav>
+
+    <a class="header-cta" href="#future">Explore Now <span>→</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><i></i> WELCOME TO 2040 <span></span></div>
+        <h1>THE DIGITAL FUTURE<br>ISN'T COMING.<br><strong>IT'S BEING DESIGNED.</strong></h1>
+        <p>NEXORA is your window into a smarter, safer and more sustainable tomorrow. Explore how technology can transform the way we live, learn, work and connect.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#future">Explore the Future <span>→</span></a>
+          <a class="btn btn-outline" href="#my-future">Build Your Future <span>→</span></a>
+        </div>
+        <div class="hero-stats">
+          <div><b>12K+</b><span>Future Explorers</span></div>
+          <div><b>50+</b><span>Innovative Concepts</span></div>
+          <div><b>100+</b><span>Tech Possibilities</span></div>
+        </div>
+      </div>
+
+      <div class="city-scene reveal" aria-label="Futuristic smart city illustration">
+        <div class="stars"></div>
+        <div class="moon"></div>
+        <div class="flying f1"></div><div class="flying f2"></div><div class="flying f3"></div>
+        <div class="city-glow"></div>
+        <div class="skyline">
+          <div class="tower t1"><span>AI</span></div>
+          <div class="tower t2"></div>
+          <div class="tower t3"><span>∞</span></div>
+          <div class="tower t4"></div>
+          <div class="tower t5"><span>AI</span></div>
+          <div class="tower t6"></div>
+          <div class="tower t7"></div>
+          <div class="tower t8"></div>
+        </div>
+        <div class="road">
+          <div class="road-line"></div>
+          <div class="person"></div>
+        </div>
+        <div class="city-chip chip-one">◉ CONNECTED</div>
+        <div class="city-chip chip-two">AI POWERED</div>
+        <div class="city-chip chip-three">ECO GRID</div>
+      </div>
+    </section>
+
+    <section class="section pulse-section" id="future">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><i></i> FUTURE PULSE <span></span></div>
+          <h2>What part of the future<br>excites you most?</h2>
+          <p>Choose a category to explore how emerging technology could reshape everyday life.</p>
+        </div>
+        <div class="pulse-detail" id="pulseDetail">
+          <div class="detail-icon">◈</div>
+          <div>
+            <h3>AI & Emerging Technologies</h3>
+            <p>AI can power smarter decisions, automate routine tasks and unlock human creativity.</p>
+            <button class="text-btn" id="explorePulseBtn">Explore Now →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-grid" id="categoryGrid">
+        <button class="category active" data-category="ai"><span>◉</span><b>AI & Tech</b></button>
+        <button class="category" data-category="education"><span>◇</span><b>Education</b></button>
+        <button class="category" data-category="healthcare"><span>♡</span><b>Healthcare</b></button>
+        <button class="category" data-category="work"><span>▣</span><b>Work</b></button>
+        <button class="category" data-category="city"><span>⌂</span><b>Smart Cities</b></button>
+        <button class="category" data-category="transport"><span>▰</span><b>Transport</b></button>
+        <button class="category" data-category="sustainability"><span>✦</span><b>Sustainability</b></button>
+        <button class="category" data-category="cyber"><span>⬡</span><b>Cyber Safety</b></button>
+      </div>
+    </section>
+
+    <section class="section cards-section" id="future-cards">
+      <div class="section-title-row reveal">
+        <div class="eyebrow"><i></i> EXPLORE THE DIGITAL FUTURE <span></span></div>
+        <button class="text-btn" id="viewAll">View All →</button>
+      </div>
+      <div class="future-cards">
+        <article class="future-card reveal" id="smart-city">
+          <div class="card-art city-art"><span>CONNECTED</span><div class="mini-city"></div></div>
+          <div class="card-body"><h3>Smart City</h3><p>Connected. Efficient. Sustainable.</p><button class="circle-btn" data-modal="city">→</button></div>
+        </article>
+        <article class="future-card reveal" id="healthcare">
+          <div class="card-art health-art"><span>CARE 2.0</span><div class="pulse-line"></div></div>
+          <div class="card-body"><h3>Digital Healthcare</h3><p>Care that comes to you.</p><button class="circle-btn" data-modal="healthcare">→</button></div>
+        </article>
+        <article class="future-card reveal" id="work">
+          <div class="card-art work-art"><span>HUMAN + AI</span><div class="orbit"></div></div>
+          <div class="card-body"><h3>Future of Work</h3><p>Work from anywhere. Impact everywhere.</p><button class="circle-btn" data-modal="work">→</button></div>
+        </article>
+        <article class="future-card reveal" id="sustainability">
+          <div class="card-art eco-art"><span>NET ZERO</span><div class="wind-turbines"><i></i><i></i><i></i></div></div>
+          <div class="card-body"><h3>Sustainable Tech</h3><p>Technology for a greener planet.</p><button class="circle-btn" data-modal="sustainability">→</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="education">
+      <div class="split-visual education-visual reveal">
+        <div class="holo-card">
+          <span>LEARNING PATH</span>
+          <strong>AI → DESIGN → INNOVATION</strong>
+          <div class="progress"><i></i></div>
+          <small>Personalised learning • Anywhere • Anytime</small>
+        </div>
+      </div>
+      <div class="split-copy reveal">
+        <div class="eyebrow"><i></i> FUTURE OF EDUCATION <span></span></div>
+        <h2>Learning without limits.</h2>
+        <p>The classroom of the future can blend human mentorship with adaptive AI, immersive experiences and learning paths built around each student's goals.</p>
+        <div class="feature-list">
+          <div><b>01</b><span><strong>Personalised</strong> — learning adapts to the learner.</span></div>
+          <div><b>02</b><span><strong>Immersive</strong> — AR/VR turns concepts into experiences.</span></div>
+          <div><b>03</b><span><strong>Accessible</strong> — quality learning can travel anywhere.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cyber-section" id="cyber">
+      <div class="cyber-copy reveal">
+        <div class="eyebrow"><i></i> DIGITAL TRUST & SECURITY <span></span></div>
+        <h2>A smarter future<br>demands absolute trust.</h2>
+        <p>Audit your security habits, test password resilience, and train to spot real-world phishing scams.</p>
+        
+        <div class="cyber-stats-mini">
+          <div><b id="cyberBadge">CYBER EXPLORER 🛡️</b><span>Current Safety Level</span></div>
+          <div><b id="scamScore">0/3</b><span>Scam Detection Score</span></div>
+        </div>
+      </div>
+
+      <div class="safety-panel reveal">
+        <div class="cyber-tabs">
+          <button class="cyber-tab active" data-tab="tabHabits">🛡️ Habit Audit</button>
+          <button class="cyber-tab" data-tab="tabPassword">🔑 Password Tester</button>
+          <button class="cyber-tab" data-tab="tabPhishing">🎣 Spot The Scam</button>
+        </div>
+
+        <!-- TAB 1: Habits Audit -->
+        <div class="tab-content active" id="tabHabits">
+          <div class="panel-head"><span>SAFETY AUDIT SCORE</span><b id="score">0/100</b></div>
+          <div id="questions" class="questions-grid">
+            <label><input type="checkbox" data-points="12"> Unique passwords for every important account</label>
+            <label><input type="checkbox" data-points="13"> 2-Factor Authentication (2FA) on email & banking</label>
+            <label><input type="checkbox" data-points="12"> Verify sender address & web link before clicking</label>
+            <label><input type="checkbox" data-points="13"> Automatic OS & browser security updates enabled</label>
+            <label><input type="checkbox" data-points="12"> Avoid public unencrypted Wi-Fi for sensitive logins</label>
+            <label><input type="checkbox" data-points="13"> Regular backups of important data to cloud/drive</label>
+            <label><input type="checkbox" data-points="13"> Limit personal info shared publicly on social media</label>
+            <label><input type="checkbox" data-points="14"> Use a secure password manager tool</label>
+          </div>
+          <div class="score-bar"><i id="scoreBar"></i></div>
+          <div class="score-footer">
+            <p id="scoreMessage">Complete the checklist to see your resilience score.</p>
+            <button class="btn-ask-nova" id="askNovaSecurity">Ask NOVA for Security Plan 🤖</button>
+          </div>
+        </div>
+
+        <!-- TAB 2: Password Strength Tester -->
+        <div class="tab-content" id="tabPassword">
+          <div class="pass-tester-box">
+            <label>Test Password Strength (Simulated locally, never stored or sent anywhere):</label>
+            <div class="pass-input-wrap">
+              <input type="password" id="passInput" placeholder="Type a sample password to test..." />
+              <button id="togglePass" title="Show/Hide Password">👁️</button>
+            </div>
+            <div class="pass-meter"><i id="passMeterBar"></i></div>
+            <div class="pass-metrics">
+              <div><span>Resilience:</span> <strong id="passRating">Type a password</strong></div>
+              <div><span>Est. Crack Time:</span> <strong id="passCrackTime">-</strong></div>
+            </div>
+            <div class="pass-rules" id="passRules">
+              <span id="ruleLen">❌ 8+ characters</span>
+              <span id="ruleUpper">❌ Uppercase letter</span>
+              <span id="ruleNum">❌ Number</span>
+              <span id="ruleSym">❌ Special symbol (!@#$)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 3: Phishing / Scam Simulator -->
+        <div class="tab-content" id="tabPhishing">
+          <div class="phishing-sim-box">
+            <div class="phish-header">
+              <span>SCAM SPOTTER CHALLENGE</span>
+              <span id="phishCount">Scenario 1 of 3</span>
+            </div>
+            <div class="phish-card" id="phishCard">
+              <div class="phish-sender" id="phishSender">From: security-alert@mybank-account-update.net</div>
+              <div class="phish-subject" id="phishSubject">⚠️ Account Suspended: Action Required in 2 Hours</div>
+              <div class="phish-body" id="phishBody">Dear User, suspicious activity was detected on your account. Please log in immediately to restore access:<br><br><span class="phish-link">http://login-mybank-security-verify.org/auth</span></div>
+            </div>
+            <div class="phish-actions">
+              <button class="phish-btn safe" id="btnLegit">✅ Legitimate Email</button>
+              <button class="phish-btn danger" id="btnPhish">🚨 Phishing Scam!</button>
+            </div>
+            <div class="phish-feedback" id="phishFeedback"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section my-future" id="my-future">
+      <div class="section-heading centered reveal">
+        <div class="eyebrow"><i></i> BUILD YOUR FUTURE <span></span></div>
+        <h2>If you could redesign one part<br>of tomorrow, what would it be?</h2>
+        <p>Choose a direction to explore a concept vision, or submit your own idea for live AI evaluation!</p>
+      </div>
+      <div class="future-picker reveal" id="futurePicker">
+        <button data-vision="education">🎓<span>Education</span></button>
+        <button data-vision="healthcare">🏥<span>Healthcare</span></button>
+        <button data-vision="city">🏙️<span>Smart Cities</span></button>
+        <button data-vision="work">💼<span>Work</span></button>
+        <button data-vision="green">🌱<span>Environment</span></button>
+        <button data-vision="space">🚀<span>Space</span></button>
+      </div>
+      <div class="vision-result" id="visionResult" aria-live="polite">
+        <span>Your Future Vision</span>
+        <h3>Pick a path above.</h3>
+        <p>Your personalised concept will appear here.</p>
+      </div>
+
+      <!-- COMPETITION CONCEPT SUBMISSION & AI EVALUATOR -->
+      <div class="idea-submission-box reveal">
+        <div class="idea-head">
+          <h3>🚀 Submit Your Concept for NEXORA Competition</h3>
+          <p>Get instant AI evaluation & feedback from NOVA on your digital future project idea.</p>
+        </div>
+        <form class="idea-form" id="ideaForm">
+          <div class="form-row">
+            <input type="text" id="ideaTitle" placeholder="Concept Title (e.g. AI Solar Micro-Grids)" required />
+            <select id="ideaCategory" required>
+              <option value="">Select Category</option>
+              <option value="Smart Cities">🏙️ Smart Cities</option>
+              <option value="Future Education">🎓 Future Education</option>
+              <option value="Digital Healthcare">🏥 Digital Healthcare</option>
+              <option value="Future of Work">💼 Future of Work</option>
+              <option value="Sustainable Tech">🌱 Sustainable Tech</option>
+              <option value="Cyber Safety">🛡️ Cyber Safety</option>
+            </select>
+          </div>
+          <textarea id="ideaDesc" rows="3" placeholder="Describe your concept: What problem does it solve and how does technology help?" required></textarea>
+          <button type="submit" class="btn btn-primary btn-submit-idea" id="btnSubmitIdea">Evaluate My Concept with AI ✨</button>
+        </form>
+        <div class="idea-evaluation-result" id="ideaResult" style="display:none;"></div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="nova" id="nova" aria-label="NOVA AI assistant">
+    <div class="nova-head" id="novaHead">
+      <button id="novaSidebarToggle" class="nova-hamburger-btn" title="Chat History" aria-label="Open History Sidebar">☰</button>
+      <div class="nova-avatar">✦</div>
+      <div><strong>NOVA</strong><small>AI VOICE ASSISTANT <i></i></small></div>
+      <div class="nova-controls">
+        <button id="novaVoiceToggle" class="nova-voice-toggle active" title="Voice Response: ON (Click to Mute)" aria-label="Toggle Voice Response">🔊</button>
+        <button id="novaPosToggle" title="Move Top / Bottom" aria-label="Move Top Bottom">⇕</button>
+        <button id="novaCollapse" title="Collapse / Expand" aria-label="Collapse NOVA">▼</button>
+        <button id="novaExpand" title="Maximize / Restore" aria-label="Maximize NOVA">⤢</button>
+        <button id="novaClose" title="Close to Icon" aria-label="Close NOVA">✕</button>
+      </div>
+    </div>
+    
+    <!-- NOVA Side Drawer for Chat History -->
+    <div class="nova-sidebar" id="novaSidebar">
+      <div class="nova-sidebar-head">
+        <span>📜 Chat History</span>
+        <button id="novaSidebarClose" title="Close History">✕</button>
+      </div>
+      <div class="nova-sidebar-actions">
+        <button id="btnNewChat" class="btn-sidebar-action primary">➕ New Chat</button>
+        <button id="novaClearHistory" class="btn-sidebar-action danger">🗑️ Clear</button>
+      </div>
+      <div class="nova-sidebar-content" id="novaSidebarContent">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+    <div class="nova-body" id="novaBody">
+      <div class="bubble bot">
+        Hi! I'm Nova 🤖<br>Ask me anything about the digital future — using text or your voice!
+        <button class="bubble-tts-btn" title="Listen to response" aria-label="Read out loud">🔊</button>
+      </div>
+      <button class="quick" data-question="How will education change?">How will education change?</button>
+      <button class="quick" data-question="What is a smart city?">What is a smart city?</button>
+      <button class="quick" data-question="How can AI improve healthcare?">How can AI improve healthcare?</button>
+    </div>
+    <div class="nova-status" id="novaStatus" style="display:none;"></div>
+    <div class="nova-input">
+      <input id="novaInput" placeholder="Type or speak your question..." />
+      <button id="novaMic" class="nova-mic-btn" title="Speak to NOVA (Voice Input)" aria-label="Voice Input">🎤</button>
+      <button id="novaSend" title="Send message">↗</button>
+    </div>
+  </aside>
+  <button class="nova-fab" id="novaFab" aria-label="Open NOVA">✦</button>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">×</button>
+      <div class="eyebrow"><i></i> NEXORA CONCEPT <span></span></div>
+      <h2 id="modalTitle">Future concept</h2>
+      <p id="modalText"></p>
+      <div class="modal-tags" id="modalTags"></div>
+      <div class="modal-actions" style="margin-top:22px;display:flex;gap:10px;flex-wrap:wrap;">
+        <button class="btn btn-primary" id="btnModalNova" style="font-size:11px;padding:10px 16px;">Generate AI Blueprint with NOVA 🤖</button>
+        <button class="btn btn-outline" id="btnModalBookmark" style="font-size:11px;padding:10px 16px;">Bookmark Concept ⭐</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal modal-gallery" id="galleryModal" aria-hidden="true">
+    <div class="modal-backdrop" id="galleryBackdrop"></div>
+    <div class="modal-card gallery-card">
+      <button class="modal-close" id="galleryClose">×</button>
+      <div class="eyebrow"><i></i> ALL DIGITAL FUTURE CONCEPTS <span></span></div>
+      <h2>Explore All 8 Future Categories</h2>
+      <p style="color:var(--muted);font-size:12px;margin:8px 0 20px;">Discover how emerging technology, digital trust, and human innovation shape tomorrow.</p>
+      
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Rendered dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div><a class="brand" href="#top"><span>NEXORA</span><small>DESIGNING THE DIGITAL FUTURE</small></a></div>
+    <div><p>Technology should make tomorrow more human, inclusive and sustainable.</p></div>
+    <div><small>© 2026 NEXORA • Competition Concept</small></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
